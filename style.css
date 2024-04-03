@@ -1,0 +1,394 @@
+.navbar {
+    display: flex;
+}
+
+/* .blackimage-cont{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(15, 127, 224);
+    position: relative;
+} */
+.child-div {
+    position: absolute;
+    background-color: brown;
+    top: -20%;
+    right: 0;
+    width: 83%;
+    height: 400px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    list-style: none;
+    padding-left: 40%;
+}
+
+.nav li {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+    padding-left: 35%
+}
+
+#btn {
+    width: 25%;
+    height: 13%;
+    text-align: center;
+}
+
+.parentimage {
+    display: flex;
+    justify-content: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+.sub-body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.sub-images {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+    margin-left: 250px;
+}
+
+.image-container1 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+
+.image-container2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 750px;
+    bottom: 60px;
+    width: 200px;
+    height: 200px;
+}
+
+.subscribers {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.paragraphs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px;
+}
+
+.portfolio-btn {
+    display: flex;
+    justify-content: space
+}
+.portfolio-data p,h2{
+ color: aliceblue;
+
+}
+
+.portfolio-btn {
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    width: 120px;
+    padding-right: 25px;
+    padding-top: 43px;
+}
+
+.parentimage-container {
+
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 150px;
+
+}
+
+.image-cont h5 {
+    color: aliceblue;
+}
+
+.image-cont p {
+    color: aliceblue;
+}
+
+.image-container3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.BLOG-btn {
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    width: 120px;
+    padding-left: 1100px;
+    padding-bottom: 113px;
+}
+
+.black-images {
+    border: solid rgb(14, 13, 13);
+}
+
+.imagedata {
+    border: 1px solid red;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.allimages {
+    /* border: solid red; */
+    height: 80%;
+    background-color: black;
+
+}
+
+/* .btn-container p {
+    color: aliceblue;
+} */
+/* 
+.btn-container h2 {
+    color: aliceblue;
+} */
+
+.image-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row-imgcont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-imgcont1 {
+    width: 33.3rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 30rem;
+    margin-bottom: 2rem;
+    margin-right: 4rem;
+}
+
+.child-cont {
+    /* position:absolute; */
+    position: absolute;
+    top: 56%;
+    right: 10%;
+}
+
+.totalcont {
+    /* border: solid violet; */
+    display: flex;
+
+}
+
+.testimonial-cont {
+    /* border: solid blue; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+    padding-top: 35px;
+}
+
+.testimonial-data {
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.Janne-Cooper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.janne{
+    padding-right: 70px;
+}
+.Cobocannaeru{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.coboc{
+    padding-right: 70px;
+}
+
+
+.testimonial {
+    /* border: solid black; */
+}
+
+.subcontiner {
+    /* border: solid yellowgreen; */
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+
+.data {
+    /* border: solid blue; */
+    background-color: black;
+    width: end;
+    height: 400px;
+    top: 6516px;
+    margin-top: 5rem;
+    padding-left: 2rem;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.datalist {
+    /* background-color: black; */
+
+
+}
+
+.list1 {
+    list-style: none;
+    background-color: rgb(57, 49, 49);
+    width: 300px;
+    height: 20px;
+    color: white;
+    gap: 2rem;
+    margin-bottom: 50px;
+
+
+}
+
+.datainpara {
+    /* border: solid green; */
+    height: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.datainpara p {
+    color: white;
+}
+
+.lastpage {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+    /* border: solid blueviolet; */
+    height: 80%;
+    width: 20%;
+    padding-left: 5rem;
+    margin-top: 2rem;
+    position: relative;
+
+}
+.contactus{
+    position: absolute;
+    /* margin-top: -3m0px; */
+    color: black;
+    top: 220px;
+    left: 150px;
+}
+.lastpage h2{
+    color: black;
+}
+.lastpage-cont {
+    /* border: solid black; */
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    /* border: solid greenyellow; */
+    margin: 5rem;
+    cursor: pointer;
+}
+
+.logo {
+    /* border: solid greenyellow; */
+    margin: 5rem;
+    cursor: pointer;
+}
+
+.line { 
+  border: solid grey;
+  border-radius: 2px;
+  border-width:1px;
+  width:100%;
+  height: 0px;
+   margin-bottom: 5rem;
+}
+.lastfooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+
+}
+
+.last{
+    /* border: solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+     
+}
